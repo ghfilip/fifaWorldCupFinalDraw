@@ -54,12 +54,12 @@ app.listen(3000, () => {
 });
 
 
-// CREATE TABLE input_data (
-//   id uuid primary key,
-//   iid varchar NOT NULL,
-//   name varchar NOT NULL,
-//   pot int NOT NULL
-// );
+CREATE TABLE input_data (
+  id uuid primary key,
+  iid varchar NOT NULL,
+  name varchar NOT NULL,
+  pot int NOT NULL
+);
 
 // CREATE TABLE final_draw (
 //   id uuid primary key,
