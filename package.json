@@ -1,0 +1,47 @@
+{
+  "name": "node-js-sample",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "async-http": "^0.1.2",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-fileupload": "^0.4.0",
+    "express-flash": "^0.0.2",
+    "express-layout": "^0.1.0",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "g": "^2.0.1",
+    "helmet": "^3.10.0",
+    "http": "0.0.0",
+    "multer": "^1.3.0",
+    "pg": "^7.4.3",
+    "sleep": "^5.1.1",
+    "sleep-promise": "^6.0.0",
+    "ts-node": "^6.0.5",
+    "typescript": "^2.8.3",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.0"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-sample"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Filip",
+  "license": "MIT"
+}
