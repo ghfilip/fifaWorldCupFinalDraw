@@ -27,6 +27,6 @@ Expose a basic Web interface that would allow a user to test the API. That is si
  browser:
  - http://localhost:3000
  
- Note**: The app is just for test purposes. The design is rough (didn't invested time in this). Restfull methods may vary and may not be unitary. 
+ Note**: The app is just for test purposes. The design is rough (didn't invested time in this). Restfull methods may vary and may not be unitary (just for test purposes). 
  
  
