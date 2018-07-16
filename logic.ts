@@ -55,7 +55,6 @@ export async function getData() {
 
   const ret = {};
   for (let i of pots) {
-    // console.log(i);
     const row = await getDataForPot(i.pot);
 
     if (row.length) {

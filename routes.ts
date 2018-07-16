@@ -5,9 +5,6 @@ import { check, validationResult } from 'express-validator/check';
 import { matchedData } from 'express-validator/filter';
 import * as _ from 'underscore';
 
-// import * as multer from 'multer';
-// const upload = multer({ storage: multer.memoryStorage() })
-
 export const routes = express.Router();
 
 import {

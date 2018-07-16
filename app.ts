@@ -10,7 +10,6 @@ import * as cookieParser from 'cookie-parser';
 import * as session from 'express-session';
 import * as flash from 'express-flash';
 import * as helmet from 'helmet';
-// import * as csrf from 'csurf';
 import * as fileUpload from 'express-fileupload';
 
 const app = express();
@@ -33,7 +32,6 @@ const middleware = [
     cookie: { maxAge: 60000 }
   }),
   flash(),
-  // csrf({ cookie: true }),
   fileUpload(),
 ];
 app.use(middleware);
@@ -54,17 +52,9 @@ app.listen(3000, () => {
 });
 
 
-CREATE TABLE input_data (
-  id uuid primary key,
-  iid varchar NOT NULL,
-  name varchar NOT NULL,
-  pot int NOT NULL
-);
-
-// CREATE TABLE final_draw (
+// CREATE TABLE input_data (
 //   id uuid primary key,
-//   pot_1_id varchar NOT NULL,
-//   pot_2_id varchar NOT NULL,
-//   pot_3_id varchar NOT NULL,
-//   pot_4_id varchar NOT NULL
+//   iid varchar NOT NULL,
+//   name varchar NOT NULL,
+//   pot int NOT NULL
 // );

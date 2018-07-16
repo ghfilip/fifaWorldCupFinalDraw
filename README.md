@@ -27,6 +27,9 @@ Expose a basic Web interface that would allow a user to test the API. That is si
  browser:
  - http://localhost:3000
  
- Note**: The app is just for test purposes. The design is rough (didn't invested time in this). Restfull methods may vary and may not be unitary (just for test purposes). 
+ tests:
+ - mocha -r ts-node/register ./test/app.spec.ts 
+ 
+ Note**: The app is just for test purposes. The design is rough (didn't invested time in this). Restfull methods may vary on frontend (just for test purposes). 
  
  
